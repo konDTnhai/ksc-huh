@@ -1,7 +1,7 @@
 <template>
   <h1>Index</h1>
   <div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button" @click="clickclick()">Button</button>
+  <button class="btn btn-primary" type="button" @click="clickclick()">กดเลย</button>
   </div>
 </template>
 <script>
