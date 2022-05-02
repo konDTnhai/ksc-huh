@@ -1,5 +1,8 @@
 <template>
   <h1>Index</h1>
+  <div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button" @click="clickclick()">Button</button>
+  </div>
 </template>
 <script>
 //import section
@@ -12,11 +15,13 @@ export default {
   },
   data() {
     return {
-
+      checked: true,
     }
   },
   methods : {
-
+    clickclick : function(){
+      if(this.checked !== false) this.$router.push('/test')
+    }
   },
 }
 </script>

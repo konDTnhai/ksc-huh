@@ -14,6 +14,11 @@ export default () => createRouter({
       name: 'tmpview',
       component: () => import('./views/_templateview.vue')
     },
+    {
+      path: '/test',
+      name: 'test',
+      component: () => import('./views/test.vue')
+    },
     /*{
       path: '/tmp',
       name: 'tmpview',
